@@ -1,0 +1,1 @@
+"0","lines(1:7,cumsum(p$sdev^2)/sum(p$sdev^2))"

@@ -1,0 +1,5 @@
+"0","test_that(""upper case works"", expect_equal(f(""A""),0))"
+"2","Error: Test failed: 'upper case works'
+* f(""A"") not equal to 0.
+Lengths differ: 0 is not 1
+"

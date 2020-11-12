@@ -1,0 +1,13 @@
+"0","# FILL ME IN"
+"0","f = function(x) {"
+"0","  message(""function is meant to take charcters and make them uppercase"")"
+"0","  if (is.numeric(x)) {"
+"0","    stop(""x should be charcter or string of chars."")"
+"0","  }"
+"0","  toupper(x) "
+"0","}"
+"0","f(1)"
+"2","function is meant to take charcters and make them uppercase
+"
+"2","Error in f(1) : x should be charcter or string of chars.
+"

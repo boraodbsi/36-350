@@ -1,0 +1,11 @@
+"0","f = function(x) { "
+"0","  try(log(x))"
+"0","    print(""hello"")"
+"0","}"
+"0","f(""BORA"")"
+"2","Error in log(x) : non-numeric argument to mathematical function
+"
+"1","[1]"
+"1"," ""hello"""
+"1","
+"

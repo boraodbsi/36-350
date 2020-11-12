@@ -1,0 +1,1 @@
+{"frames":[{"func":"f(1)","file":"","line_number":0,"end_line_number":0,"character_number":0,"end_character_number":0},{"func":"stop(\"x should be charcter or string of chars.\")","file":"","line_number":4,"end_line_number":4,"character_number":5,"end_character_number":52}],"message":"Error in f(1) : x should be charcter or string of chars.\n"}

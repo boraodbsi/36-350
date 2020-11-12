@@ -1,0 +1,14 @@
+"0","if ( require(""testthat"") == FALSE ) {"
+"0","  install.packages(""testthat"",repos=""https://cloud.r-project.org"")"
+"0","  library(testthat)"
+"0","}"
+"0","f = function(letter) {"
+"0","  return(log(which(letters==letter)))"
+"0","}"
+"0",""
+"0",""
+"0","test_that(""output number"", expect_type(f(""h""),""double""))"
+"0","test_that(""number input fails"", expect_error(f(1)))"
+"2","Error: Test failed: 'number input fails'
+* `f(1)` did not throw an error.
+"

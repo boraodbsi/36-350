@@ -1,0 +1,4 @@
+"0","test_that(""length of input >1"", expect_message(f(""ab"")))"
+"2","Error: Test failed: 'length of input >1'
+* `f(""ab"")` did not produce any messages.
+"

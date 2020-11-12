@@ -1,0 +1,4 @@
+"0","# FILL ME IN"
+"0","data = mvrnorm(100, mu.cond, Sigma.cond)"
+"0","df = data.frame(data[,1], data[,2])"
+"0","pairs(df, pch = 19,labels = c(""x.1"", ""x.2""))"

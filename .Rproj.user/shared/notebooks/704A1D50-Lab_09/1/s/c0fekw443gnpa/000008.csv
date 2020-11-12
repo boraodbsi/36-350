@@ -1,0 +1,1 @@
+"0","lines(1:4,cumsum(p.sd^2)/sum(p.sd^2))"

@@ -1,0 +1,8 @@
+"0","# FILL ME IN"
+"0","df.x = data.frame(x)"
+"0","df.y = data.frame(y)"
+"0","x.1 = prcomp(df.x, scale = TRUE) "
+"0","y.1 = prcomp(df.y, scale = TRUE) "
+"0","score.1 = as.matrix(scale(df.x)) %*% x.1$rotation"
+"0","score.2 = as.matrix(scale(df.y)) %*% y.1$rotation"
+"0","plot(score.1, score.2, col= color, pch = 19)"

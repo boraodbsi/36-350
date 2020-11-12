@@ -1,0 +1,8 @@
+"0","# FILL ME IN"
+"0","p = c(1,5)"
+"0","mu.marginal = mu[p]"
+"0","Sigma.marginal = Sigma[p,p]"
+"0","fx = mvrnorm(100, mu.marginal, Sigma.marginal)"
+"0","df = data.frame(data[,1], data[,2])"
+"0","plot(df,pch=19,xlab=""x1"",ylab=""x5"")"
+"0",""

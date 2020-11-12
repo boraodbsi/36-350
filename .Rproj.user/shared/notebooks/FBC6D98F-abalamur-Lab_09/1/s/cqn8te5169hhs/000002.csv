@@ -1,0 +1,7 @@
+"0","#data = mvrnorm(100, mu.cond, Sigma.cond)"
+"2","The working directory was changed to /Users/boraodabasi inside a notebook chunk. The working directory will be reset when the chunk is finished running. Use the knitr root.dir option in the setup chunk to change the working directory for notebook chunks."
+"0","df = data.frame(x = data[,1], y = data[,2])"
+"0","ggplot(data = df, mapping = aes(x=x, y=y)) +"
+"0","  geom_point(col = ""blue"") +"
+"0","  xlim(-1, 6) +"
+"0","  ylim(-1,6)"
